@@ -13,6 +13,7 @@
 
   /* txt-color */
   --color-blue: #2196f3;
+  --color-accent-blue: #188ce8;
   --color-ligt: #757575;
   --color-white: #ffffff;
   --color-dark: #212121;
@@ -246,6 +247,12 @@ body {
   border: transparent;
   border-radius: 4px;
   cursor: pointer;
+  transition: color var(--transition-basic);
+}
+
+.intro-btn:hover,
+..intro-btn:focus {
+  color: var(--color-accent-blue);
 }
 /* Feature section */
 
